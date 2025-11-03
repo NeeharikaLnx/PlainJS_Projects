@@ -1,0 +1,33 @@
+#h{
+    
+    text-align: center;
+    font-size:larger;
+    font-family: 'Times New Roman';
+
+}
+#l1{
+    display:block;
+    text-align: center;
+    font-size: 10em;
+    font-family: helvetica;
+
+
+}
+
+#d1{
+    text-align: center;
+   
+}
+.b1{
+    padding:10px ,20px;
+    font-size:1.5em;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    transition : background-color 0.25s;
+}
+.b1:hover{
+    background-color: blueviolet;
+
+    
+}
