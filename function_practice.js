@@ -67,3 +67,34 @@ console.log(fruitqt);
 
 const fruitlist12=fruits.map((element)=>{return element});
 console.log(fruitlist12);
+
+
+
+const inStock = fruits.filter((element) =>{
+  return  element.quantity >=10; 
+});
+
+console.log(inStock);
+
+const isPrice = fruits.filter((element)=>  element.price<1);
+
+console.log(isPrice);
+
+const notGreen = fruits.filter((element)=> element.color!=='green');
+
+console.log(notGreen);
+
+
+
+const totalQuantity =fruits.reduce((accumlator , element)=>{
+    return accumlator+element.quantity ;
+} ,0);
+console.log(totalQuantity);
+
+const expFruits = fruits.filter((element)=>element.price>1);
+
+const count = expFruits.reduce((accumlator,element)=> {
+  return accumlator+ element.quantity ;
+},0);
+
+console.log(count);
